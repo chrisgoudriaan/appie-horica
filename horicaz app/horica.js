@@ -41,14 +41,14 @@ function vraag2(){
 			var aantalbb = prompt("hoeveel bitterballen wil je 8 of 16")
 				
 			if (aantalbb == "8"){
-				bb8 = aantalbb * 0.5
+				bb8 = aantalbb * 0.50
 				document.write(aantalbb +" "+ "bitterballen-" + bb8 + "euro" + "<br/>")
 					vraag2();
 
 			}
 			else if (aantalbb == "16"){
 				 
-			 	bb16 = aantalbb * 0.5
+			 	bb16 = aantalbb * 0.50
 				document.write(aantalbb +" "+ "bitterballen-" + bb16 + "euro" + "<br/>")
 				vraag2();
 

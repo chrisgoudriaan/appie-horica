@@ -1,0 +1,15 @@
+
+.grid-container {
+  display: grid;
+  background-color: white;
+  border-style: solid;
+  border color:black;
+}
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 0px 0;
+  font-size: 10px;
+  
+}
+
